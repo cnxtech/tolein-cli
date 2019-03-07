@@ -2,22 +2,25 @@
   "name": "tolein-cli",
   "version": "1.0.0",
   "description": "a command line tool",
+  "keywords": [
+    "webpack",
+    "cli"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "lioder",
+  "license": "MIT",
+  "homepage": "https://github.com/lioder/tolein-cli",
   "dependencies": {
     "chalk": "^2.4.2",
-    "commander": "^2.19.0"
-  },
-  "bin": {
-    "tolein": "./bin/entry.js"
-  },
-  "devDependencies": {
+    "commander": "^2.19.0",
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
     "ora": "^3.2.0"
+  },
+  "bin": {
+    "tolein": "./bin/entry.js"
   }
 }
