@@ -1,0 +1,23 @@
+{
+  "name": "tolein-cli",
+  "version": "1.0.0",
+  "description": "a command line tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0"
+  },
+  "bin": {
+    "tolein": "./bin/entry.js"
+  },
+  "devDependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "ora": "^3.2.0"
+  }
+}
